@@ -30,7 +30,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Authentik",
-      "type": 3
+      "type": 2
     },
     {
       "type": 1,
@@ -207,7 +207,7 @@
         "url": "https://github.com/mycroftwilde/portainer_templates"
       },
       "title": "MeshCentral",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -226,7 +226,7 @@
       ],
       "restart_policy": "always",
       "title": "Freeboard",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -245,7 +245,7 @@
       ],
       "restart_policy": "always",
       "title": "Ghostfolio",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -264,7 +264,7 @@
       ],
       "restart_policy": "always",
       "title": "Servas",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
