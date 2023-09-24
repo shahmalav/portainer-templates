@@ -33,7 +33,7 @@
       "type": 2
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Apprise-api",
       "name": "Apprise-api",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/apprise-api/config</p>",
@@ -76,7 +76,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Pwndrop",
       "name": "Pwndrop",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/pwndrop/config</p>",
@@ -125,7 +125,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Family App Server"
       ],
@@ -311,7 +311,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Prowlarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Prowlarr",
@@ -345,7 +345,7 @@
       ],
       "restart_policy": "always",
       "title": "Pi.alert",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/pi.alert",
@@ -378,7 +378,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Trilium",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/trilium-data",
@@ -458,7 +458,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Audiobookshelf",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Audiobookshelf",
@@ -595,7 +595,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Readarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Readarr",
@@ -612,7 +612,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Library Server"
       ],
@@ -668,7 +668,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Smart Home"
       ],
@@ -744,7 +744,7 @@
       "restart_policy": "unless-stopped",
       "command": "/bin/bash -c \"npm run server\" && exit 777",
       "title": "MagicMirror2",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/opt/magic_mirror/config"
@@ -783,7 +783,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Komga",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/books"
@@ -825,7 +825,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Kavita",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/books"
@@ -842,7 +842,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Management Utility Server"
       ],
@@ -928,7 +928,7 @@
       ],
       "restart_policy": "always",
       "title": "Uptime Kuma",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/UptimeKuma",
@@ -937,7 +937,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Grafana",
       "description": "Metrics Graphing Tool",
       "logo": "https://raw.githubusercontent.com/grafana/grafana/main/docs/logo-horizontal.png",
@@ -977,7 +977,7 @@
       ],
       "restart_policy": "always",
       "title": "Nodered",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nodered",
@@ -999,7 +999,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "draw.io",
-      "type": 1
+      "type": 2
     },
     {
       "categories": [
@@ -1061,7 +1061,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Flame-Dashboard",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/flame-dashboard",
@@ -1070,7 +1070,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Tools"
       ],
@@ -1134,7 +1134,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Authelia",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Authelia",
@@ -1172,7 +1172,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Bazarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Bazarr",
@@ -1214,7 +1214,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Beets",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Beets",
@@ -1245,7 +1245,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Vaultwarden",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Vaultwarden",
@@ -1284,7 +1284,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Booksonic",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -1369,7 +1369,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "COPS",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -1408,7 +1408,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Calibre Web",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Books",
@@ -1471,7 +1471,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Chevereto",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/var/www/html/images"
@@ -1492,7 +1492,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Chowdown",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Chowdown",
@@ -1543,7 +1543,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Code Server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Code-Server",
@@ -1577,7 +1577,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Codiad",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Codiad",
@@ -1611,7 +1611,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "CouchPotato",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Couchpotato",
@@ -1650,7 +1650,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Daapd",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Daapd",
@@ -1676,7 +1676,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "DashMachine",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Dashmachine",
@@ -1711,7 +1711,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Davos",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Davos",
@@ -1751,7 +1751,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Deluge",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Deluge",
@@ -1791,7 +1791,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Domoticz",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Domoticz",
@@ -1833,7 +1833,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Duck DNS",
-      "type": 1
+      "type": 2
     },
     {
       "categories": [
@@ -1861,7 +1861,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Duplicati",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Duplicati",
@@ -1909,7 +1909,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Emby",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Emby",
@@ -1940,7 +1940,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "EmbyStat",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/EmbyStat",
@@ -1963,7 +1963,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "FileBrowser",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/FileBrowser",
@@ -2001,7 +2001,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "FreshRSS",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/freshrss",
@@ -2032,7 +2032,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Gazee",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Gazee",
@@ -2063,7 +2063,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Guacamole",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Guacamole",
@@ -2101,7 +2101,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Grocy",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Grocy",
@@ -2135,7 +2135,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Headphones",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Headphones",
@@ -2178,7 +2178,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Heimdall",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Heimdall",
@@ -2201,7 +2201,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Homer",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Homer/assets",
@@ -2227,7 +2227,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Huginn",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/huginn",
@@ -2261,7 +2261,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Jackett",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Jackett",
@@ -2304,7 +2304,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Jellyfin",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Jellyfin",
@@ -2347,7 +2347,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Kodi Headless",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Kodi",
@@ -2381,7 +2381,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "LazyLibrarian",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/config"
@@ -2457,7 +2457,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Let's Encrypt / SWAG",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/LetsEncrypt",
@@ -2479,7 +2479,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "LibreSpeed",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/LibreSpeed",
@@ -2513,7 +2513,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Lidarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Lidarr",
@@ -2555,7 +2555,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Lychee",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Lychee",
@@ -2598,7 +2598,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "MariaDB",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Mariadb",
@@ -2620,7 +2620,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Mstream",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Mstream",
@@ -2663,7 +2663,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Murmur",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/etc/localtime:ro",
@@ -2714,7 +2714,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "MusicBrainz",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/MusicBrainz",
@@ -2752,7 +2752,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Muximux",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Muximux",
@@ -2786,7 +2786,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Mylar",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Mylar",
@@ -2828,7 +2828,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "NZBGet",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nzbget",
@@ -2866,7 +2866,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "NZBHydra 2",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nzbhydra2",
@@ -2949,7 +2949,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Nginx",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nginx",
@@ -2980,7 +2980,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Nginx Proxy Manager",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Nginx-Proxy/data",
@@ -3018,7 +3018,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Ombi",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Ombi",
@@ -3059,7 +3059,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "OpenVPN Access Server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/OpenVPN-AS",
@@ -3093,7 +3093,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Organizr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Organizr",
@@ -3127,7 +3127,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Overseerr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Overseerr",
@@ -3248,7 +3248,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "PhotoShow",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Pictures",
@@ -3283,7 +3283,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Pi-Hole",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PiHole",
@@ -3321,7 +3321,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Piwigo",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PiWigo",
@@ -3358,7 +3358,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Plex",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Plex",
@@ -3405,7 +3405,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Plex Requests",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PlexRequests",
@@ -3429,7 +3429,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "ProtonMail Bridge",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/ProtonMail-Bridge",
@@ -3465,7 +3465,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "qBittorrent",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/qBittorrent",
@@ -3503,7 +3503,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Radarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Radarr",
@@ -3542,7 +3542,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Resilio Sync",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Resilio-Sync",
@@ -3585,7 +3585,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "ruTorrent",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ruTorrent",
@@ -3624,7 +3624,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SABnzbd",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Sabnzbd",
@@ -3654,7 +3654,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Shiori",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Shiori",
@@ -3688,7 +3688,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SmokePing",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Smokeping",
@@ -3715,7 +3715,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Snibox",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Snibox",
@@ -3749,7 +3749,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Sonarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Sonarr",
@@ -3797,7 +3797,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SyncThing",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Syncthing",
@@ -3835,7 +3835,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Tautulli",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Logs",
@@ -3861,7 +3861,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "TiddlyWiki",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/TiddlyWiki",
@@ -3895,7 +3895,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Tiny Tiny RSS",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/tt-rss",
@@ -3930,7 +3930,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Transmission",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Transmission",
@@ -3993,7 +3993,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Transmission-OpenVPN",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Downloads",
@@ -4037,7 +4037,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Ubooquity",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/books"
@@ -4083,7 +4083,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "UniFi Controller",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Unifi",
@@ -4103,7 +4103,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Watchtower",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/var/run/docker.sock",
@@ -4135,7 +4135,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "WebGrab+Plus",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/WebGrabPlus",
@@ -4161,7 +4161,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Whoogle",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Whoogle",
@@ -4183,7 +4183,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Wikijs",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Wikijs",
@@ -4209,7 +4209,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Yacht",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "yacht",
@@ -4222,7 +4222,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Tools"
       ],
@@ -4265,7 +4265,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Library Server"
       ],
@@ -4326,7 +4326,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Code Server"
       ],
@@ -4395,7 +4395,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Notes Server"
       ],
@@ -4439,7 +4439,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Gaming Server"
       ],
@@ -4494,7 +4494,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Tools"
       ],
@@ -4567,7 +4567,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Media Server"
       ],
@@ -4610,7 +4610,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "FTP Server"
       ],
@@ -4653,7 +4653,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Task Server"
       ],
@@ -4780,7 +4780,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Smart Home"
       ],
@@ -4824,7 +4824,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Media Server"
       ],
@@ -4879,7 +4879,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Proxy Server"
       ],
@@ -4923,7 +4923,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Family App Server"
       ],
@@ -4966,7 +4966,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Code Server"
       ],
@@ -5009,7 +5009,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Tools"
       ],
@@ -5096,7 +5096,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Tools"
       ],
@@ -5113,7 +5113,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Management Utility Server"
       ],
@@ -5276,7 +5276,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Management Utility Server"
       ],
@@ -5373,7 +5373,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Family App Server"
       ],
@@ -5426,7 +5426,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Family App Server"
       ],
@@ -5479,7 +5479,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Chat Server"
       ],
@@ -5522,7 +5522,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Management Utility Server"
       ],
@@ -5570,7 +5570,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Backup and Sync Server"
       ],
@@ -5621,7 +5621,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "Family App Server"
       ],
@@ -5665,7 +5665,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Webtop",
       "name": "Webtop",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/webtop/config<br></p>",
@@ -5719,7 +5719,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "categories": [
         "VPN Server"
       ],
@@ -5805,7 +5805,7 @@
       "categories": [
         "Management Utility Server"
       ],
-      "type": 1,
+      "type": 2,
       "title": "Wireshark",
       "name": "Wireshark",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/wireshark/config</p>",
@@ -5846,7 +5846,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Airsonic-advanced",
       "name": "Airsonic-advanced",
       "categories": [
@@ -5917,7 +5917,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Phpmyadmin",
       "name": "Phpmyadmin",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/phpmyadmin/config</p>",
@@ -5972,7 +5972,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Pixapop",
       "name": "Pixapop",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/pixapop/config<br>mkdir -p /volume1/docker/pixapop/photos</p>",
@@ -6031,7 +6031,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Syslog-ng",
       "name": "Syslog-ng",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/syslog-ng/config<br></p>",
@@ -6080,7 +6080,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Wowza",
       "description": "Streaming media server",
       "categories": [
@@ -6113,7 +6113,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "MySQL",
       "description": "The most popular open-source database",
       "categories": [
@@ -6138,7 +6138,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Gitlab CE",
       "description": "Open-source end-to-end software development platform",
       "note": "Default username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
@@ -6179,7 +6179,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "YouTubeDL-Material",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/YTDLM",
@@ -6204,7 +6204,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "cardigann",
       "title": "Cardigann",
       "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.",
@@ -6256,7 +6256,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "changedetection",
       "title": "ChangeDetection",
       "description": "changedetection.io - The best and simplest self-hosted open source website change detection monitoring and notification service. An alternative to Visualping, Watchtower",
@@ -6297,7 +6297,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "cloudcmd",
       "title": "Cloud Commander",
       "description": "Cloud Commander a file manager for the web with console and editor.",
@@ -6358,7 +6358,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "duplicacy",
       "title": "Duplicacy",
       "description": "Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication",
@@ -6419,7 +6419,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "dozzle",
       "title": "Dozzle",
       "description": " Realtime log viewer for docker containers. ",
@@ -6461,7 +6461,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "droppy",
       "title": "Droppy",
       "description": "Droppy is a self-hosted file storage server",
@@ -6578,7 +6578,7 @@
       }
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "gaps",
       "title": "Gaps",
       "description": "Gaps searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection.",
@@ -6621,7 +6621,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "homepage",
       "title": "Homepage",
       "description": "A modern (fully static, fast), secure (fully proxied), highly customizable application dashboard with integrations for more than 25 services and translations for over 15 languages. Easily configured via YAML files (or discovery via docker labels).",
@@ -6724,7 +6724,7 @@
       }
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "logzio-logs-collector",
       "title": "Logzio Logs Collector",
       "description": "Docker container that uses Filebeat to collect logs from other Docker containers and forward those logs to your Logz.io account.",
@@ -6761,7 +6761,7 @@
       "labels": []
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "logzio-metrics-collector",
       "title": "Logzio Metrics Collector",
       "description": "Docker Metrics Collector is a container that runs Metricbeat with the modules you enable at runtime.",
@@ -6824,7 +6824,7 @@
       }
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "netbootxyz",
       "title": "Netboot.xyz",
       "description": "Netbootxyz is a way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool",
@@ -6888,7 +6888,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "plex",
       "title": "Plex Media Server",
       "description": "Plex organizes your video, music, and photo collections and streams them to all of your screens.",
@@ -6974,7 +6974,7 @@
       }
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "pureftp",
       "title": "Pure-FTP Server",
       "description": "Pure-FTPd is a free (BSD), secure, production-quality and standard-conformant FTP server. ",
@@ -7088,7 +7088,7 @@
       "labels": []
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "rclone",
       "title": "Rclone Config Backup",
       "description": "Rclone is a command line program to sync files and directories to and from cloud providers (Dropbox, GDrive, Box, etc)",
@@ -7113,7 +7113,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "scrutiny",
       "title": "Scrutiny",
       "description": "WebUI for smartd S.M.A.R.T monitoring",
@@ -7157,7 +7157,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "sickrage",
       "title": "SickRage",
       "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
@@ -7227,7 +7227,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "syncserver",
       "title": "Mozilla Syncserver",
       "description": "Run-Your-Own Firefox Sync Server",
@@ -7297,7 +7297,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "urlwatch",
       "title": "UrlWatch",
       "description": "A tool for monitoring webpages for updates",
@@ -7341,7 +7341,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "vsftpd",
       "title": "vsftpd FTP Server",
       "description": "Secure, fast FTP server for UNIX-like systems",
@@ -7422,7 +7422,7 @@
       "labels": []
     },
     {
-      "type": 1,
+      "type": 2,
       "name": "wizarr",
       "title": "Wizarr",
       "description": " Wizarr is an advanced user invitation and management system for Jellyfin, Plex, Emby etc. ",
@@ -7498,7 +7498,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Adguardhome",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/AdguardHome/config",
@@ -7528,7 +7528,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Alpine Xfce4 noVNC",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/alpine-xfce4-novnc/home/apline/downloads",
@@ -7564,7 +7564,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Apache Httpd",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/apache-httpd",
@@ -7601,7 +7601,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "ArchiSteamFarm",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ArchiSteamFarm/config",
@@ -7661,7 +7661,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Archivebox",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/archivebox",
@@ -7700,7 +7700,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "AriaNG",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/AriaNG",
@@ -7732,7 +7732,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Caddy",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Caddy/Data",
@@ -7776,7 +7776,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Chrony NTP",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/cturra/docker-ntp\" target=\"_blank\">https://github.com/cturra/docker-ntp</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/cturra/docker-ntp/blob/main/README.md\" target=\"_blank\">https://github.com/cturra/docker-ntp/blob/main/README.md</a><br><br><br>"
     },
     {
@@ -7794,7 +7794,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Clamav",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/etc/timezone",
@@ -7854,7 +7854,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Cloudflare DDNS",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.cloudflare.com/en-gb/learning/dns/glossary/dynamic-dns/\" target=\"_blank\">https://www.cloudflare.com/en-gb/learning/dns/glossary/dynamic-dns/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/favonia/cloudflare-ddns/\" target=\"_blank\">https://github.com/favonia/cloudflare-ddns/</a><br><br><br>"
     },
     {
@@ -7903,7 +7903,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "DaVinci Postgres Server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/DavinciServer/",
@@ -7928,7 +7928,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "DeeMix",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/DeeMix",
@@ -7956,7 +7956,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Eclipse Mosquitto MQTT",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/eclipse-mosquitto/config",
@@ -7989,7 +7989,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "FileBrowser latest",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Downloads",
@@ -8033,7 +8033,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "FileBrowser S6",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Downloads",
@@ -8071,7 +8071,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Flame",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Flame/data",
@@ -8121,7 +8121,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "FlareSolverr",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Docker Documentation: </b><a href=\"https://github.com/FlareSolverr/FlareSolverr#installation\" target=\"_blank\">https://github.com/FlareSolverr/FlareSolverr#installation</a><br><br><br>"
     },
     {
@@ -8161,7 +8161,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "FoundryVTT Server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/foundryvtt",
@@ -8197,7 +8197,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Ghost",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Ghost",
@@ -8220,7 +8220,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Go-Socks5-Proxy",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/serjs/go-socks5-proxy\" target=\"_blank\">https://hub.docker.com/r/serjs/go-socks5-proxy</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/serjs/go-socks5-proxy\" target=\"_blank\">https://hub.docker.com/r/serjs/go-socks5-proxy</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=IWj1-j2QWvo target=\"_blank\">Novaspirit Tech - Route Docker Traffic Through VPN Container</a><br><br>"
     },
     {
@@ -8256,7 +8256,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Gotify",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/gotify",
@@ -8293,7 +8293,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Homarr",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/var/run/docker.sock",
@@ -8338,7 +8338,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Homarr-Secured",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Homarr/configs",
@@ -8391,7 +8391,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "Homebridge",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/homebridge",
@@ -8440,7 +8440,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "Homebridge - Debian",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/debian-homebridge",
@@ -8465,7 +8465,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Influxdb 1.8.10",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Influxdb/data",
@@ -8503,7 +8503,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "iobroker",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/iobrokerdata",
@@ -8544,7 +8544,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "JDownloader",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/JDownloader",
@@ -8572,7 +8572,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Jellyfin-Accounts",
-      "type": 1,
+      "type": 2,
       "network": "bridge",
       "ports": [
         "8056:8056/tcp"
@@ -8634,7 +8634,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "libreddit",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/libreddit",
@@ -8676,7 +8676,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "LLDAP",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/lldap/data",
@@ -8711,7 +8711,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Maloja",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Maloja/Data",
@@ -8793,7 +8793,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Mealie",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/mealie",
@@ -8827,7 +8827,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "MeTube",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Downloads",
@@ -8859,7 +8859,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Minecraft Server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Minecraft-data",
@@ -8913,7 +8913,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "MinIO",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/MinIO",
@@ -8955,7 +8955,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "n8n",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/n8n",
@@ -8991,7 +8991,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Netdata",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/netdata/netdataconfig",
@@ -9122,7 +9122,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Nginx Proxy Manager v2 with Sqllite",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/nginx-proxy-manager/data",
@@ -9169,7 +9169,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Nginx Proxy Manager v3 [DEVEL] NOT READY FOR USE",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/nginx-proxy-manager-v3/data",
@@ -9258,7 +9258,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "nord-vpn",
-      "type": 1,
+      "type": 2,
       "privileged": true,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/azinchen/nordvpn\" target=\"_blank\">https://github.com/azinchen/nordvpn</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/azinchen/nordvpn\" target=\"_blank\">https://hub.docker.com/r/azinchen/nordvpn</a><br><br><br>"
     },
@@ -9314,7 +9314,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "NUT Server",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://networkupstools.org\" target=\"_blank\">https://networkupstools.org</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/instantlinux/nut-upsd\" target=\"_blank\">https://hub.docker.com/r/instantlinux/nut-upsd</a><br><br><br>"
     },
     {
@@ -9345,7 +9345,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "OctoPrint",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/OctoPrint",
@@ -9392,7 +9392,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Omada EAP Controller",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Omada",
@@ -9428,7 +9428,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Organizr v2",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Organizr",
@@ -9664,7 +9664,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "pgAdmin",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/pgadmin",
@@ -9693,7 +9693,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Pi-Hole DoH/DoT",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT",
@@ -9764,7 +9764,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Pi-Hole-Unbound",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PiHole-Unbound",
@@ -9790,7 +9790,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Pixel-server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/pixel-server/auth.cfg",
@@ -9848,7 +9848,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "PostgreSQL",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/PostgreSQL",
@@ -9887,7 +9887,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "PrivateBin",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/PrivateBin",
@@ -9943,7 +9943,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "qFlood",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/qFlood",
@@ -10018,7 +10018,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "RustDesk",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/rustdesk",
@@ -10081,7 +10081,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "Samba",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Downloads",
@@ -10117,7 +10117,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SearXNG",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/searxng",
@@ -10142,7 +10142,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Snippet-box",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Snippet-box",
@@ -10173,7 +10173,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Speedtest Tracker",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/speedtest-tracker",
@@ -10197,7 +10197,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Sshwifty",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://sshwifty.herokuapp.com/\" target=\"_blank\">https://sshwifty.herokuapp.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/nirui/sshwifty#docker-image\" target=\"_blank\">https://github.com/nirui/sshwifty#docker-image</a><br><br><br>"
     },
     {
@@ -10234,7 +10234,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SurrealDB",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://surrealdb.com/\" target=\"_blank\">https://surrealdb.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/surrealdb/surrealdb\" target=\"_blank\">https://hub.docker.com/r/surrealdb/surrealdb</a><br><br><br>"
     },
     {
@@ -10262,7 +10262,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "System Stats OLED display",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/etc/timezone",
@@ -10297,7 +10297,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Tailscale",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/tailscale",
@@ -10329,7 +10329,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Traefik",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/traefik/traefik.yml",
@@ -10411,7 +10411,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "Transmission OpenVPN Latest",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/transmission-openvpn",
@@ -10489,7 +10489,7 @@
       "privileged": true,
       "restart_policy": "unless-stopped",
       "title": "Transmission OpenVPN v3",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/transmission-openvpn",
@@ -10549,7 +10549,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "UniFi Video",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/UnifFiVideo/Recordings/",
@@ -10588,7 +10588,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Unmanic",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/unmanic/config",
@@ -10632,7 +10632,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "UrBackup",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/urbackup",
@@ -10660,7 +10660,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Vlmcsd - KMS",
-      "type": 1,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/mikolatero/vlmcsd\" target=\"_blank\">https://hub.docker.com/r/mikolatero/vlmcsd</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/mikolatero/docker-vlmcsd\" target=\"_blank\">https://github.com/mikolatero/docker-vlmcsd</a><br><br><br>"
     },
     {
@@ -10841,7 +10841,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Airsonic",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Music",
@@ -10881,7 +10881,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Bitwarden RS",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Bitwarden-rs",
@@ -10999,7 +10999,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Let's Encrypt",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/LetsEncrypt",
@@ -11034,7 +11034,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "McMyAdmin 2",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/minecraft"
@@ -11068,7 +11068,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Medusa",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Medusa",
@@ -11110,7 +11110,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Minetest",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/config/.minetest"
@@ -11147,7 +11147,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Minisatip",
-      "type": 1
+      "type": 2
     },
     {
       "categories": [
@@ -11176,7 +11176,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "OScam",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/OScam",
@@ -11212,7 +11212,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "HTPC Manager",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/HTPCmanager",
@@ -11249,7 +11249,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "ProjectSend",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/ProjectSend",
@@ -11328,7 +11328,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Pydio",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Pydio",
@@ -11366,7 +11366,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Quassel IRC",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Quassel-core",
@@ -11389,7 +11389,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Reactive-Resume",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ReactiveResume",
@@ -11424,7 +11424,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SickChill",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/SickChill",
@@ -11467,7 +11467,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "SickGear",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/SickGear",
@@ -11509,7 +11509,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "TheLounge",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/TheLounge",
@@ -11545,7 +11545,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Tvheadend",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/TVHeadend",
@@ -11582,7 +11582,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "ZNC",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/ZNC",
@@ -11631,7 +11631,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Deluge openvpn",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/etc/localtime",
@@ -11661,7 +11661,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Dradis",
-      "type": 1
+      "type": 2
     },
     {
       "categories": [
@@ -11702,7 +11702,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Adguard",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Adguard/Workdir",
@@ -11729,7 +11729,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Passky Client",
-      "type": 1
+      "type": 2
     },
     {
       "categories": [
@@ -11758,7 +11758,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Passky Server",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Passky-Server",
@@ -11767,7 +11767,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Registry",
       "description": "Docker image registry",
       "categories": [
@@ -11786,7 +11786,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Registry (cache)",
       "description": "Docker image registry configured as a DockerHub pull through cache",
       "categories": [
@@ -11812,7 +11812,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Ubuntu",
       "description": "Debian-based Linux operating system",
       "categories": [
@@ -11825,7 +11825,7 @@
       "command": "/bin/bash"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "NodeJS",
       "description": "JavaScript-based platform for server-side and networking applications",
       "categories": [
@@ -11838,7 +11838,7 @@
       "command": "/bin/bash"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Httpd",
       "description": "Open-source HTTP server",
       "categories": [
@@ -11857,7 +11857,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Mongo",
       "description": "Open-source document-oriented database",
       "categories": [
@@ -11876,7 +11876,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "CrateDB",
       "description": "An open-source distributed SQL database",
       "categories": [
@@ -11896,7 +11896,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Elasticsearch",
       "description": "Open-source search and analytics engine",
       "categories": [
@@ -11916,7 +11916,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Scality S3",
       "description": "Standalone AWS S3 protocol server",
       "categories": [
@@ -11948,7 +11948,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "SQL Server",
       "description": "Microsoft SQL Server on Linux",
       "categories": [
@@ -11974,7 +11974,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "SQL Server Express",
       "description": "Microsoft SQL Server Express for Windows containers",
       "categories": [
@@ -12005,7 +12005,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Solr",
       "description": "Open-source enterprise search platform",
       "categories": [
@@ -12024,7 +12024,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Redis",
       "description": "Open-source in-memory data structure store",
       "categories": [
@@ -12089,7 +12089,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "RabbitMQ",
       "description": "Highly reliable enterprise messaging system",
       "categories": [
@@ -12109,7 +12109,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Joomla",
       "description": "Another free and open-source CMS",
       "categories": [
@@ -12139,7 +12139,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Drupal",
       "description": "Open-source content management framework",
       "categories": [
@@ -12158,7 +12158,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Plone",
       "description": "A free and open-source CMS built on top of Zope",
       "note": "Default user and password are admin/admin",
@@ -12178,7 +12178,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Sematext Docker Agent",
       "description": "Collect logs, metrics and docker events",
       "categories": [
@@ -12208,7 +12208,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Datadog agent",
       "description": "Collect events and metrics",
       "categories": [
@@ -12242,7 +12242,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Mautic",
       "description": "Open-source marketing automation platform",
       "categories": [
@@ -12272,7 +12272,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Jenkins",
       "description": "Open-source continuous integration tool",
       "categories": [
@@ -12292,7 +12292,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Redmine",
       "description": "Open-source project management tool",
       "note": "Default user and password are admin/admin",
@@ -12312,7 +12312,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "CommandBox",
       "description": "ColdFusion (CFML) CLI",
       "categories": [
@@ -12334,7 +12334,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "ContentBox",
       "description": "Open-source modular CMS",
       "categories": [
@@ -12374,7 +12374,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Dokku",
       "description": "Dokku setup as a container",
       "categories": [
@@ -12413,7 +12413,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "OPC Router",
       "description": "No-code middleware for industrial applications. The OPC Router connects PLCs, PCS, SCADA, MES, SQL databases and servers, label printers, e-mail servers and erp-systems via OPC UA, MQTT, REST, CSV and many others without any programming effort",
       "note": "More information about the <a href=\"https://www.opc-router.com/terms-of-use-and-eula/?utm_source=DockerHub_runtime&utm_medium=click&utm_campaign=TermsOfUseAndEula\" target=\"_blank\">EULA</a>.",
@@ -12462,7 +12462,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Floating License Server",
       "description": "License Server for Softing edgeConnector products",
       "categories": [
@@ -12482,7 +12482,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "EdgeConnector Modbus",
       "description": "Connect Modbus TCP Sensors/PLCs and provide the data via OPC UA and MQTT",
       "categories": [
@@ -12498,7 +12498,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "EdgeConnector 840D",
       "description": "Access Siemens SINUMERIK 840D sl/pl controllers and provide data via OPC UA and MQTT",
       "categories": [
@@ -12514,7 +12514,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "EdgeConnector Siemens",
       "description": "Connect Siemens SIMATIC S7-300/400/1200/1500 PLCs and provide the data via OPC UA and MQTT",
       "categories": [
@@ -12945,7 +12945,7 @@
       "type": 2
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "IronFunctions API",
       "description": "Open-source serverless computing platform",
       "categories": [
@@ -12965,7 +12965,7 @@
       "privileged": true
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "IronFunctions UI",
       "description": "Open-source user interface for IronFunctions",
       "categories": [
@@ -12991,7 +12991,7 @@
       "privileged": true
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Magento 2",
       "description": "Open-source e-commerce platform",
       "categories": [
@@ -13039,7 +13039,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Odoo",
       "description": "Open-source business apps",
       "categories": [
@@ -13076,7 +13076,7 @@
       ]
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Plesk",
       "description": "WebOps platform and hosting control panel",
       "categories": [
@@ -13122,7 +13122,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Zus.am",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/Zusam",
@@ -13217,7 +13217,7 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Eufy Security WS",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/eufy-security-ws",
@@ -13287,7 +13287,7 @@
       ],
       "restart_policy": "always",
       "title": "Cryptofolio",
-      "type": 1
+      "type": 2
     },
     {
       "categories": [
@@ -13303,7 +13303,7 @@
       ],
       "restart_policy": "always",
       "title": "Reveal.js",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/revealjs/docs/slides",
@@ -13329,7 +13329,7 @@
       ],
       "restart_policy": "always",
       "title": "Statping",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/statping",
@@ -13351,7 +13351,7 @@
       ],
       "restart_policy": "always",
       "title": "NUTS",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "bind": "/portainer/Files/AppData/Config/nuts",
@@ -14442,7 +14442,7 @@
       "type": 2
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Adguardhome-sync",
       "name": "Adguardhome-sync",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/adguardhome-sync/config</p>",
@@ -14488,7 +14488,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Babybuddy",
       "name": "Babybuddy",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/babybuddy/config</p>",
@@ -14534,7 +14534,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Blender",
       "name": "Blender",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/blender/config</p>",
@@ -14581,7 +14581,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Boinc",
       "name": "Boinc",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/boinc/config</p>",
@@ -14631,7 +14631,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Budge",
       "name": "Budge",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/budge/config</p>",
@@ -14672,7 +14672,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Build-agent",
       "name": "Build-agent",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/build-agent/config</p>",
@@ -14712,7 +14712,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Changedetection.io",
       "name": "Changedetection.io",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/changedetection.io/config</p>",
@@ -14758,7 +14758,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Chromium",
       "name": "Chromium",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/chromium/config</p>",
@@ -14805,7 +14805,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Ci",
       "name": "Ci",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ci/config</p>",
@@ -14845,7 +14845,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Darktable",
       "name": "Darktable",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/darktable/config</p>",
@@ -14889,7 +14889,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Ddclient",
       "name": "Ddclient",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ddclient/config</p>",
@@ -14929,7 +14929,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Digikam",
       "name": "Digikam",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/digikam/config</p>",
@@ -14979,7 +14979,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Dillinger",
       "name": "Dillinger",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/dillinger/config</p>",
@@ -15022,7 +15022,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Diskover",
       "name": "Diskover",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/diskover/config<br>mkdir -p /volume1/docker/diskover/data</p>",
@@ -15093,7 +15093,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Doplarr",
       "name": "Doplarr",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/doplarr/config</p>",
@@ -15238,7 +15238,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Doublecommander",
       "name": "Doublecommander",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/doublecommander/config<br>mkdir -p /volume1/docker/doublecommander/data</p>",
@@ -15286,7 +15286,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Fail2ban",
       "name": "Fail2ban",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/fail2ban/config<br>mkdir -p /volume1/docker/fail2ban/var/log:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/airsonic:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/apache2:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/authelia:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/emby:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/filebrowser:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/homeassistant:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/lighttpd:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/nextcloud:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/nginx:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/nzbget:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/overseerr:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/prowlarr:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/radarr:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/sabnzbd:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/sonarr:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/unificontroller:ro<br>mkdir -p /volume1/docker/fail2ban/remotelogs/vaultwarden:ro</p>",
@@ -15405,7 +15405,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Feed2toot",
       "name": "Feed2toot",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/feed2toot/config</p>",
@@ -15448,7 +15448,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Fleet",
       "name": "Fleet",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/fleet/config</p>",
@@ -15518,7 +15518,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Flexget",
       "name": "Flexget",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/flexget/config<br>mkdir -p /volume1/docker/flexget/data</p>",
@@ -15586,7 +15586,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Github-desktop",
       "name": "Github-desktop",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/github-desktop/config</p>",
@@ -15627,7 +15627,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Gitqlient",
       "name": "Gitqlient",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/gitqlient/config</p>",
@@ -15668,7 +15668,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Grav",
       "name": "Grav",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/grav/config</p>",
@@ -15711,7 +15711,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Hedgedoc",
       "name": "Hedgedoc",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/hedgedoc/config</p>",
@@ -15814,7 +15814,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Hishtory-server",
       "name": "Hishtory-server",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p>",
@@ -15854,7 +15854,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Jenkins-builder",
       "name": "Jenkins-builder",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/jenkins-builder/config</p>",
@@ -15894,7 +15894,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Kasm",
       "name": "Kasm",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/kasm/opt<br>mkdir -p /volume1/docker/kasm/profiles<br><br></p>",
@@ -15954,7 +15954,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Kdenlive",
       "name": "Kdenlive",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/kdenlive/config</p>",
@@ -16001,7 +16001,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Kimai",
       "name": "Kimai",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/kimai/config</p>",
@@ -16048,7 +16048,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Lollypop",
       "name": "Lollypop",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/lollypop/config</p>",
@@ -16089,7 +16089,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Mullvad-browser",
       "name": "Mullvad-browser",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/mullvad-browser/config</p>",
@@ -16136,7 +16136,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Mylar3",
       "name": "Mylar3",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/mylar3/config<br>mkdir -p /volume1/docker/mylar3/comics<br>mkdir -p /volume1/docker/mylar3/downloads</p>",
@@ -16184,7 +16184,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Mysql-workbench",
       "name": "Mysql-workbench",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/mysql-workbench/config</p>",
@@ -16225,7 +16225,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Ngircd",
       "name": "Ngircd",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ngircd/config</p>",
@@ -16265,7 +16265,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Nntp2nntp",
       "name": "Nntp2nntp",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/nntp2nntp/config</p>",
@@ -16317,7 +16317,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Openvscode-server",
       "name": "Openvscode-server",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/openvscode-server/config</p>",
@@ -16381,7 +16381,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Opera",
       "name": "Opera",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/opera/config</p>",
@@ -16428,7 +16428,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Pairdrop",
       "name": "Pairdrop",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p>",
@@ -16486,7 +16486,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Plex-meta-manager",
       "name": "Plex-meta-manager",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/plex-meta-manager/config</p>",
@@ -16556,7 +16556,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Pydio-cells",
       "name": "Pydio-cells",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/pydio-cells/config</p>",
@@ -16609,7 +16609,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Pyload-ng",
       "name": "Pyload-ng",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/pyload-ng/config<br>mkdir -p /volume1/docker/pyload-ng/downloads</p>",
@@ -16654,7 +16654,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Pylon",
       "name": "Pylon",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/pylon/config<br>mkdir -p /volume1/docker/pylon/code</p>",
@@ -16716,7 +16716,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Qdirstat",
       "name": "Qdirstat",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/qdirstat/config<br>mkdir -p /volume1/docker/qdirstat/data</p>",
@@ -16761,7 +16761,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Quassel-core",
       "name": "Quassel-core",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/quassel-core/config</p>",
@@ -16808,7 +16808,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Quassel-web",
       "name": "Quassel-web",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/quassel-web/config</p>",
@@ -16866,7 +16866,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Raneto",
       "name": "Raneto",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/raneto/config</p>",
@@ -16906,7 +16906,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Readme-sync",
       "name": "Readme-sync",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/readme-sync/config</p>",
@@ -16946,7 +16946,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Remmina",
       "name": "Remmina",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/remmina/config</p>",
@@ -16987,7 +16987,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Requestrr",
       "name": "Requestrr",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/requestrr/config</p>",
@@ -17030,7 +17030,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Series-troxide",
       "name": "Series-troxide",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/series-troxide/config</p>",
@@ -17071,7 +17071,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Sqlitebrowser",
       "name": "Sqlitebrowser",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/sqlitebrowser/config</p>",
@@ -17112,7 +17112,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Steamos",
       "name": "Steamos",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/steamos/config<br><br></p>",
@@ -17190,7 +17190,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Swag",
       "name": "Swag",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/swag/config</p>",
@@ -17291,7 +17291,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Synclounge",
       "name": "Synclounge",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p>",
@@ -17325,7 +17325,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Tester",
       "name": "Tester",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p>",
@@ -17347,7 +17347,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Unifi-network-application",
       "name": "Unifi-network-application",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/unifi-network-application/config</p>",
@@ -17437,7 +17437,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Unrar",
       "name": "Unrar",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/unrar/config</p>",
@@ -17477,7 +17477,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Vscodium",
       "name": "Vscodium",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/vscodium/config</p>",
@@ -17518,7 +17518,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Webcord",
       "name": "Webcord",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/webcord/config</p>",
@@ -17559,7 +17559,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Wps-office",
       "name": "Wps-office",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/wps-office/config</p>",
@@ -17600,7 +17600,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Xbackbone",
       "name": "Xbackbone",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/xbackbone/config</p>",
@@ -17641,7 +17641,7 @@
       "restart_policy": "unless-stopped"
     },
     {
-      "type": 1,
+      "type": 2,
       "title": "Yq",
       "name": "Yq",
       "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/yq/config</p>",
@@ -17714,7 +17714,7 @@
         "4040/tcp"
       ],
       "title": "libresonic",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/music"
@@ -17769,7 +17769,7 @@
         "1194/udp"
       ],
       "title": "openvpn-as",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/config"
@@ -17807,7 +17807,7 @@
         "5076/tcp"
       ],
       "title": "hydra2",
-      "type": 1,
+      "type": 2,
       "volumes": [
         {
           "container": "/config"
