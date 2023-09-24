@@ -283,7 +283,7 @@
       ],
       "restart_policy": "always",
       "title": "Wallabag",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -399,7 +399,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Frigate NVR",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -430,7 +430,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Fenrus",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -503,7 +503,7 @@
         "url": "https://github.com/mycroftwilde/portainer_templates"
       },
       "title": "Vikunja",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -525,7 +525,7 @@
         "url": "https://github.com/mycroftwilde/portainer_templates"
       },
       "title": "Stash",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -540,7 +540,7 @@
         "url": "https://github.com/mycroftwilde/portainer_templates"
       },
       "title": "Rocket Chat",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -567,7 +567,7 @@
         "url": "https://github.com/mycroftwilde/portainer_templates"
       },
       "title": "Joplin",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -1014,7 +1014,7 @@
         "url": "https://github.com/mycroftwilde/portainer_templates"
       },
       "title": "Dashy",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -1045,7 +1045,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Navidrome",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -1341,7 +1341,7 @@
         "url": "https://github.com/Qballjos/portainer_templates"
       },
       "title": "Bookstack",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -2920,7 +2920,7 @@
         "url": "https://github.com/Qballjos/portainer_templates"
       },
       "title": "Nextcloud",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -3185,7 +3185,7 @@
         "url": "https://github.com/Qballjos/portainer_templates"
       },
       "title": "Owncloud",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -3220,7 +3220,7 @@
         "url": "https://github.com/Qballjos/portainer_templates"
       },
       "title": "Petio",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -6561,7 +6561,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "name": "filerun",
       "title": "Filerun",
       "description": "access your files anywhere through self-hosted secure cloud storage, file backup and sharing for your photos, videos, files and more.",
@@ -6686,7 +6686,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "name": "klaxon",
       "title": "Klaxon",
       "description": "Klaxon is a free, quick to set up and easy to use robot that checks websites regularly so you don't have to.",
@@ -6809,7 +6809,7 @@
       "labels": []
     },
     {
-      "type": 3,
+      "type": 2,
       "name": "mayan",
       "title": "Mayan EDMS",
       "description": "Mayan EDMS is an electronic vault for your documents.",
@@ -6959,7 +6959,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "name": "plextraktsync",
       "title": "PlexTraktSync",
       "description": "A python script that syncs the movies, shows and ratings between trakt and Plex",
@@ -8617,7 +8617,7 @@
       },
       "restart_policy": "unless-stopped",
       "title": "Klipper[Testing], Mainsail, Moonraker",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -9085,7 +9085,7 @@
       },
       "restart_policy": "unless-stopped",
       "title": "Nginx Proxy Manager v2 with Sqlite and Goaccess Charts",
-      "type": 3,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nginxproxymanager.com/\" target=\"_blank\">https://nginxproxymanager.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://nginxproxymanager.com/setup/#running-the-app\" target=\"_blank\">https://nginxproxymanager.com/setup/#running-the-app</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/nginx_proxy_manager.md\" target=\"_blank\">nginx_proxy_manager.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yl2Laxbqvo8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=10 target=\"_blank\">Novaspirit Tech - Installing Nginx Proxy Manager on Docker</a><br><br>"
     },
     {
@@ -9194,7 +9194,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Nitter",
-      "type": 3,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nitter.net/\" target=\"_blank\">https://nitter.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/zedeus/nitter\" target=\"_blank\">https://github.com/zedeus/nitter</a><br><br><br>"
     },
     {
@@ -9503,7 +9503,7 @@
       "platform": "linux",
       "restart_policy": "unless-stopped",
       "title": "Paperless NGX",
-      "type": 3,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/paperless-ngx/paperless-ngx\" target=\"_blank\">https://github.com/paperless-ngx/paperless-ngx</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/paperless-ngx/paperless-ngx\" target=\"_blank\">https://github.com/paperless-ngx/paperless-ngx</a><br><br><br>"
     },
     {
@@ -9619,7 +9619,7 @@
       },
       "restart_policy": "unless-stopped",
       "title": "Passbolt",
-      "type": 3,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">passbolt.md</a></h3><br><br><br>"
     },
     {
@@ -9980,7 +9980,7 @@
       },
       "restart_policy": "unless-stopped",
       "title": "Raspberry Pi Docker Monitor",
-      "type": 3,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">rpi_docker_monitor.md</a></h3><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/rpi_docker_monitor.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/rpi_docker_monitor.sh | bash</h3><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=IoD3vFuep64&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=8 target=\"_blank\">Novaspirit Tech - Raspberry Pi Docker Monitoring</a><br><br>"
     },
     {
@@ -10711,7 +10711,7 @@
         "url": "https://github.com/pi-hosted/pi-hosted"
       },
       "title": "Wireguard Server",
-      "type": 3,
+      "type": 2,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/WeeJeWel/wg-easy/\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/WeeJeWel/wg-easy/#1-install-docker\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/#1-install-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/wireguard-install.md\" target=\"_blank\">wireguard-install.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yB_jAumIxOg target=\"_blank\">Novaspirit Tech - Beginners Guide to WireGuard Docker and Installing Pi-OS 64bit</a><br><br>"
     },
     {
@@ -10748,7 +10748,7 @@
         "url": "https://github.com/pi-hosted/pi-hosted"
       },
       "title": "Wordpress",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -10803,7 +10803,7 @@
         "url": "https://github.com/pi-hosted/pi-hosted"
       },
       "title": "your-spotify",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -10934,7 +10934,7 @@
         "url": "https://github.com/SelfhostedPro/selfhosted_templates"
       },
       "title": "Invoice Ninja",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -11299,7 +11299,7 @@
         "url": "https://github.com/SelfhostedPro/selfhosted_templates"
       },
       "title": "Pritunl",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -12591,7 +12591,7 @@
       }
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "OpenAMT",
       "description": "OpenAMT Cloud Toolkit",
       "note": "MPS password needs to be 8-32 characters including one uppercase, one lowercase letters, one base-10 digit and one special character.",
@@ -12665,7 +12665,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "FDO",
       "description": "FDO",
       "platform": "linux",
@@ -12706,7 +12706,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "TOSIBOX Lock for Container",
       "description": "Lock for Container brings secure connectivity inside your industrial IoT devices",
       "categories": [
@@ -12942,7 +12942,7 @@
       },
       "restart_policy": "unless-stopped",
       "title": "Outline",
-      "type": 3
+      "type": 2
     },
     {
       "type": 1,
@@ -13143,7 +13143,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "ProxiTok",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13158,7 +13158,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Miniflux",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13189,7 +13189,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Koillection",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13238,7 +13238,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Tdarr",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13253,7 +13253,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Monica",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13269,7 +13269,7 @@
       "platform": "linux",
       "restart_policy": "always",
       "title": "Teleport",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13372,7 +13372,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Homechart",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13387,7 +13387,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Ferdi Server",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13402,7 +13402,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Ferdium",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13420,7 +13420,7 @@
         "3000:3000/tcp"
       ],
       "title": "Littlelink Server",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13435,7 +13435,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Linkstack",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13450,7 +13450,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Aria2 Pro",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13465,7 +13465,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Flood",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13481,7 +13481,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Photoprism",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13497,7 +13497,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Immich",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13512,7 +13512,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Kiwix",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13527,7 +13527,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Tandoor",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13542,7 +13542,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Ansible-semaphore",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13558,7 +13558,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Funkwhale",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13573,7 +13573,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Gokapi",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13588,7 +13588,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Traggo",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13603,7 +13603,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Moodle",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13618,7 +13618,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Freescout",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13633,7 +13633,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Wger",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13648,7 +13648,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Docker Container Stats",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13663,7 +13663,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Codex",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13679,7 +13679,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Kapowarr",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13694,7 +13694,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Signal Proxy",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13709,7 +13709,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Chiefonboarding",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13724,7 +13724,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Castopod",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13740,7 +13740,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Influxdb & Telegraf",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13755,7 +13755,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Influxdb",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13770,7 +13770,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Filestash",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13785,7 +13785,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Silverstripe",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13800,7 +13800,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Whisparr",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13815,7 +13815,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Midarr",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13830,7 +13830,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Mastodon",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13845,7 +13845,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Appwrite",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13860,7 +13860,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Tubearchivist",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13875,7 +13875,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Actual",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13891,7 +13891,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Baikal",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13907,7 +13907,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Autobrr",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13922,7 +13922,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Glances",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13938,7 +13938,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Documize",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13953,7 +13953,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Rport",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13968,7 +13968,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Remotely",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -13984,7 +13984,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Tabby",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14000,7 +14000,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Excalidraw",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14015,7 +14015,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Upsnap",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14032,7 +14032,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Tooljet",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14050,7 +14050,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Budibase",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14065,7 +14065,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Meilisearch",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14081,7 +14081,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Ory Kratos (Standalone)",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14097,7 +14097,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Ory Kratos (Oathkeeper)",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14114,7 +14114,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Appsmith",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14129,7 +14129,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Mailpile",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14144,7 +14144,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Poste.io",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14159,7 +14159,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "iperf",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14174,7 +14174,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Lazytainer",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14189,7 +14189,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "I hate money",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14204,7 +14204,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "OpenBudgeteer",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14219,7 +14219,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Fireshare",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14234,7 +14234,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Filepizza",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14249,7 +14249,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Jump",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14264,7 +14264,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Hasty-Paste",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14279,7 +14279,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Xwiki",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14294,7 +14294,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Leantime",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14309,7 +14309,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Jellyseer",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14324,7 +14324,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Trudesk",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14339,7 +14339,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Dashdot",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14356,7 +14356,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Baserow",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14373,7 +14373,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "NocoDB",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14388,7 +14388,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Broadlink Manager",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14406,7 +14406,7 @@
         "3000:3000/tcp"
       ],
       "title": "Umami.is",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14424,7 +14424,7 @@
         "8282:80/tcp"
       ],
       "title": "Matomo",
-      "type": 3
+      "type": 2
     },
     {
       "categories": [
@@ -14439,7 +14439,7 @@
         "url": "https://github.com/xneo1/portainer_templates"
       },
       "title": "Neko",
-      "type": 3
+      "type": 2
     },
     {
       "type": 1,
