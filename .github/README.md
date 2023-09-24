@@ -77,23 +77,23 @@ If you're using your own template file, but don't want to fork this repository, 
 
 ## Editing
 
-The `template.json` file is generated using the scripts in [`lib`](https://github.com/shahmalav/portainer-templates/tree/main/lib), using GitHub Actions.
+The `template.json` file is generated using the scripts in [`lib`](https://github.com/Lissy93/portainer-templates/tree/main/lib), using GitHub Actions.
 Running the `make` command will download all listed sources, parse them, and combine them with anything in the sources dir, outputting the `templates.json` file.<br>
-_So, you only need to edit **either** the [`sources.csv`](https://github.com/shahmalav/portainer-templates/blob/main/sources.csv) file, **or** add your templates directly into the [`sources/`](https://github.com/shahmalav/portainer-templates/tree/main/sources) directory._
+_So, you only need to edit **either** the [`sources.csv`](https://github.com/Lissy93/portainer-templates/blob/main/sources.csv) file, **or** add your templates directly into the [`sources/`](https://github.com/Lissy93/portainer-templates/tree/main/sources) directory._
 
 ### Adding a new Source
-If you're maintaining your own list of Portainer templates, and would like them to be included, just add the URL to your template.json file to [`sources.csv`](https://github.com/shahmalav/portainer-templates/blob/main/sources.csv), along with a name.
+If you're maintaining your own list of Portainer templates, and would like them to be included, just add the URL to your template.json file to [`sources.csv`](https://github.com/Lissy93/portainer-templates/blob/main/sources.csv), along with a name.
 When the action runs, it will download the content, parse it and add it to the final template.
 
 ### Adding a Template / Template list
-Alternatively, place your template file within the [`sources`](https://github.com/shahmalav/portainer-templates/tree/main/sources) directory, and it will be automatically combined into the main `template.json`. Be sure that your template corresponds to [Portainer's App Template JSON Format](https://docs.portainer.io/advanced/app-templates/format).
+Alternatively, place your template file within the [`sources`](https://github.com/Lissy93/portainer-templates/tree/main/sources) directory, and it will be automatically combined into the main `template.json`. Be sure that your template corresponds to [Portainer's App Template JSON Format](https://docs.portainer.io/advanced/app-templates/format).
 
 ### Validating Templates
-There is a schema defined in [`Schema.json`](https://github.com/shahmalav/portainer-templates/blob/main/Schema.json), which can be used to validate any Portainer template.
+There is a schema defined in [`Schema.json`](https://github.com/Lissy93/portainer-templates/blob/main/Schema.json), which can be used to validate any Portainer template.
 Run `make validate` to ensure your template conforms to Portainer's App Template [specification](https://docs.portainer.io/advanced/app-templates/format).
 
 ### Maintaining your own Templates
-If you'd like to use this repo as a base, but maintain your own list of template, just fork the repository, and update `shahmalav` with your username in the import URL.
+If you'd like to use this repo as a base, but maintain your own list of template, just fork the repository, and update `lissy93` with your username in the import URL.
 
 ---
 
@@ -597,7 +597,7 @@ If you'd like to use this repo as a base, but maintain your own list of template
 <br>
 
 Full credit to the authors of the following templates.
-The main `templates.json` file is composes of these sources, along with the content of the [`sources`](https://github.com/shahmalav/portainer-templates/tree/main/sources) directory.
+The main `templates.json` file is composes of these sources, along with the content of the [`sources`](https://github.com/Lissy93/portainer-templates/tree/main/sources) directory.
 
 <!-- auto-insert-sources:start -->
 1. <img src="https://github.com/dnburgess.png?size=40" width="26" height="26" /> [template](https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json) by [@dnburgess](https://github.com/dnburgess)
@@ -635,18 +635,18 @@ If you're new to GitHub, you can get started by forking the repo, making your ch
 There's a simple website, which lists all available templates and shows stats, config options and installation instructions for each app / stack. You can view it at **[portainer-templates.netlify.app](https://portainer-templates.netlify.app/)**<br>
 
 
-The source is located in the [`website`](https://github.com/shahmalav/portainer-templates/tree/website) branch, and it's build as a simple SSR Svelte app (using SvelteKit + TypeScript + SCSS + Vite).
+The source is located in the [`website`](https://github.com/Lissy93/portainer-templates/tree/website) branch, and it's build as a simple SSR Svelte app (using SvelteKit + TypeScript + SCSS + Vite).
 To make changes to the website, you'll need Node.js and Git installed. Then just run the following commands:
 ```bash
-git clone -b website git@github.com:shahmalav/portainer-templates.git # Clone the website branch
+git clone -b website git@github.com:Lissy93/portainer-templates.git # Clone the website branch
 cd portainer-templates # Navigate into the directory
 npm i # Install dependencies
 npm run dev # Start the development server
 ```
 
-And to pubish, run `npm run build` then either use `npm start` or host the content of the '/build' directory using a web server of your choice. Alternatively, there's a [Dockerfile](https://github.com/shahmalav/portainer-templates/blob/website/Dockerfile), for easy deployment :)
+And to pubish, run `npm run build` then either use `npm start` or host the content of the '/build' directory using a web server of your choice. Alternatively, there's a [Dockerfile](https://github.com/Lissy93/portainer-templates/blob/website/Dockerfile), for easy deployment :)
 
-Note that it's not required to make any changes to the website when adding a new template or templates source, as data is fetched directly from [`templates.json`](https://github.com/shahmalav/portainer-templates/blob/main/templates.json) in the repo's main branch - so should show up automatically once your changes are merged.
+Note that it's not required to make any changes to the website when adding a new template or templates source, as data is fetched directly from [`templates.json`](https://github.com/Lissy93/portainer-templates/blob/main/templates.json) in the repo's main branch - so should show up automatically once your changes are merged.
 
 ---
 
@@ -670,8 +670,8 @@ https://codeberg.org/alicia/portainer-templates/raw/branch/main/templates.json
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/shahmalav">
-            <img src="https://avatars.githubusercontent.com/u/1862727?v=4" width="80;" alt="shahmalav"/>
+        <a href="https://github.com/Lissy93">
+            <img src="https://avatars.githubusercontent.com/u/1862727?v=4" width="80;" alt="Lissy93"/>
             <br />
             <sub><b>Alicia Sykes</b></sub>
         </a>
@@ -836,7 +836,7 @@ https://codeberg.org/alicia/portainer-templates/raw/branch/main/templates.json
 
 > **Note** For licenses for each app listed here, see their websites _(linked to [above](#supported-apps-and-stacks))_.
 
-> _**[shahmalav/Portainer-Templates](https://github.com/shahmalav/portainer-templates)** is licensed under [MIT](https://github.com/shahmalav/portainer-templates/blob/HEAD/LICENSE) © [Alicia Sykes](https://aliciasykes.com) 2023._<br>
+> _**[Lissy93/Portainer-Templates](https://github.com/Lissy93/portainer-templates)** is licensed under [MIT](https://github.com/Lissy93/portainer-templates/blob/HEAD/LICENSE) © [Alicia Sykes](https://aliciasykes.com) 2023._<br>
 > <sup align="right">For information, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal > MIT</a></sup>
 
 <details>
@@ -869,8 +869,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <!-- License + Copyright -->
 <p  align="center">
   <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2023</i><br>
-  <i>Licensed under <a href="https://gist.github.com/shahmalav/143d2ee01ccc5c052a17">MIT</a></i><br>
-  <a href="https://github.com/shahmalav"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
+  <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
+  <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
 
